@@ -1,0 +1,6 @@
+# Serve .html as HTML (avoid text/plain misconfig)
+AddType text/html .html
+# Default file to load
+DirectoryIndex index.html
+# Prevent directory listing
+Options -Indexes
